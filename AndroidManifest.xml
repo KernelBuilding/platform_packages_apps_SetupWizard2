@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="app.grapheneos.setupwizard"
+    package="com.scandium.setupwizard"
     tools:ignore="ProtectedPermissions">
 
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
@@ -24,7 +24,7 @@
         tools:ignore="MissingApplicationIcon">
 
         <activity
-            android:name="app.grapheneos.setupwizard.view.activity.WelcomeActivity"
+            android:name="com.scandium.setupwizard.view.activity.WelcomeActivity"
             android:exported="true">
             <intent-filter android:priority="999">
                 <action android:name="android.intent.action.MAIN" />
