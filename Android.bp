@@ -17,12 +17,12 @@ android_app {
         "setupdesign",
     ],
 
-    required: ["etc_permissions_app.grapheneos.setupwizard"],
+    required: ["etc_permissions_com.scandium.setupwizard"],
 }
 
 prebuilt_etc {
-    name: "etc_permissions_app.grapheneos.setupwizard",
-    src: "etc/permissions/app.grapheneos.setupwizard.xml",
+    name: "etc_permissions_com.scandium.setupwizard",
+    src: "etc/permissions/com.scandium.setupwizard.xml",
     sub_dir: "permissions",
     filename_from_src: true,
     system_ext_specific: true,
